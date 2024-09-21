@@ -1,6 +1,6 @@
 # Windows Processes Manager
 
-This PowerShell scripts allows you to suspend or stop specific processes running on your Windows system. 
+These PowerShell scripts allow to suspend or stop specific processes running on Windows systems. 
 This can be useful for temporarily stopping resource-intensive processes or troubleshooting issues.
 
 ## Usage
@@ -46,17 +46,17 @@ powershell -ExecutionPolicy Bypass -File ./stop.ps1
 ```
 
 ### Notes
-- Process names: Ensure you use the correct process names. You can use the Get-Process command in PowerShell to verify the names.
+- Process names: Ensure you use the correct process names. Use the Get-Process command in PowerShell to verify the names.
 
 ```bash
 Get-Process
 ```
 - Be cautious when suspending or stopping system processes. Suspending or stopping critical processes can cause instability or system issues.
-- Some processes may restart automatically after a while or when you restart your computer.
-- Alternatives: There are third-party tools that allow you to manage startup programs more visually and with more options.
+- Some processes may restart automatically after a while or when restarting the system.
+- Alternatives: There are third-party tools that allow to manage startup programs more visually and with more options.
 
 **Disclaimer:**
 
-Use these scripts at your own risk. Suspending or stopping processes can have unintended consequences. 
+Use at your own risk. Suspending or stopping processes can have unintended consequences. 
 It is recommended to research a process before suspending it.
 
